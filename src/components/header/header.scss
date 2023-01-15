@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 76px;
+}
+.header__menu {
+    &-left  {
+        padding: 0;
+        display: flex;
+        list-style: none;
+        cursor: pointer;
+    }
+
+    &-right {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+    &_link {
+        padding-right: 32px;
+        color: #000000;
+    }
+
+}
