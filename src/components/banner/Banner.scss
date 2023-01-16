@@ -1,7 +1,5 @@
 .banner {
     text-align: center;
-    overflow: hidden;
-    margin-top: 133px;
     height: 499px;
     position: relative;
     &__bg {
@@ -60,13 +58,15 @@
     }
     &__img3 {
         position: absolute;
-        top: 0;
+        top: -50px;
         right: 70px;
     }
     &__img4 {
         position: absolute;
-        top: 0;
-        left: 0;
+        width: 173px;
+        height: 174px;
+        left: 53px;
+        top: -60px;
     }
 }
 

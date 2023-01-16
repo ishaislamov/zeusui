@@ -8,7 +8,7 @@ import Banner4 from '../../images/banner4.png';
 
 export const Banner = () => {
   return (
-    <div className='banner'>
+    <div className='banner container'>
         <div className='banner__bg'></div>
         <img className="banner__img1" src={Banner1}/>
         <img className="banner__img2" src={Banner2}/>
