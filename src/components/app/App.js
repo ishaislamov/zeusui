@@ -1,6 +1,7 @@
 import { Banner } from "../banner/Banner";
 import { Company } from "../company/Company";
 import { Header } from "../header";
+import { Ourteam } from "../ourteam/Ourteam";
 import './App.scss'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <Banner />
         <Company />
+        <Ourteam />
       </div>
   );
 }
