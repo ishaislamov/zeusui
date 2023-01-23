@@ -1,6 +1,7 @@
 .team {
     display: flex;
     flex-flow: column;
+    margin: 0 auto;
     &__title {
         text-align: center;
         font-weight: 700;
@@ -21,10 +22,10 @@
     &__items {
         display: flex;
         max-width: 1440px;
-        align-items: center;
         padding-bottom: 160px;
         justify-content: space-between;
         padding-top: 80px;
+        gap: 32px;
         margin: 0 auto;
     }
     &__item {
@@ -32,7 +33,7 @@
         flex-flow: column;
         align-items: center;
         width: 300px;
-        margin-right: 32px;
+
     }
     &__avatar {
         width: 80px;

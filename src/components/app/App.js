@@ -1,4 +1,5 @@
 import { Banner } from "../banner/Banner";
+import { Collection } from "../collection/Collection";
 import { Company } from "../company/Company";
 import { Header } from "../header";
 import { Ourteam } from "../ourteam/Ourteam";
@@ -11,6 +12,7 @@ function App() {
         <Banner />
         <Company />
         <Ourteam />
+        <Collection />
       </div>
   );
 }
