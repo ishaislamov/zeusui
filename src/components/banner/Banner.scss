@@ -45,6 +45,9 @@
         border: none;
         outline: none;
         margin-top: 32px;
+        &:hover {
+            background: #ab4fb9;
+        }
     }
     &__img1 {
         position: absolute;

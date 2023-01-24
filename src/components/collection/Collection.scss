@@ -1,3 +1,44 @@
 .collection {
+    
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+    }
+    &__desc {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #532C59;
+        max-width: 760px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 64px;
+    }
+    &__block {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 32px;
+    }
+
+    &__item {
+        text-align: center;
+        &-name {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 42px;
+            margin-top: 16px;
+            margin-bottom: 0;
+        }
+        &-desc {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #532C59;
+            margin-top: 12px;
+            margin-bottom: 64px;
+        }
+    }
 
 }

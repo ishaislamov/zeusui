@@ -3,6 +3,7 @@ import { Collection } from "../collection/Collection";
 import { Company } from "../company/Company";
 import { Header } from "../header";
 import { Ourteam } from "../ourteam/Ourteam";
+import { Provide } from "../provide/Provide";
 import './App.scss'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Company />
         <Ourteam />
         <Collection />
+        <Provide />
       </div>
   );
 }
