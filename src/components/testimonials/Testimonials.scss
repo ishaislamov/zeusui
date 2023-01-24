@@ -1,0 +1,55 @@
+.feedback {
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        margin-top: 80px;
+        height: 750px;
+        border: 1px solid red;
+        overflow: hidden;
+        margin-bottom: 50px;
+        &-first {
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #D6BCFA;
+        border-radius: 10px;
+        width: 412px;
+        margin-bottom: 32px;
+        padding: 24px 24px;
+    }
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+    &__userinfo {
+        display: flex;
+        flex-direction: column;
+        padding-left: 8px;
+    }
+    &__username {
+        display: inline;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0;
+    }
+    &__url {
+        font-weight: 400;
+        font-size: 16px;
+        opacity: 0.5;
+        line-height: 24px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #532C59;
+        line-height: 24px;
+    }
+    &__avatar {
+        width: 48px;
+        height: 48px;
+    }
+}

@@ -4,6 +4,7 @@ import { Company } from "../company/Company";
 import { Header } from "../header";
 import { Ourteam } from "../ourteam/Ourteam";
 import { Provide } from "../provide/Provide";
+import { Testimonials } from "../testimonials/Testimonials";
 import './App.scss'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Ourteam />
         <Collection />
         <Provide />
+        <Testimonials />
       </div>
   );
 }
